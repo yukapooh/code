@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family:"myfont";
-  src: url("font/zarame.ttf") format("truetype");
+  src: url("font/Zarame/zarame.ttf") format("truetype");
   font-display: swap;
 }
 img {
