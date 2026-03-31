@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:"myfont";
+  src: url("font/zarame.ttf") format("truetype");
+  font-display: swap;
+}
+img {
+  display: inline-block;
+}
+
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* body */
+body {
+  font-family:"myfont";
+  height: 100%;
+  margin: 0;
+}
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+  background-color: #ffffee;
+  padding: 60px;
+
+  display: flex;
+  justify-content: center; /* 横の中央 */
+  align-items: center;     /* 縦の中央 */
+
+  min-height: 100vh;       /* 画面いっぱい */
+}
+
+
+.shop-content-wrap {
+  justify-content: center; /* 横方向の中央 */
+}
+
+/* Waiting Number　のスタイル */
+.translation {
+  font-size: 70px;
+  margin-bottom: 20px;             /* ← ここ重要！ */
+  color: #A2D2FF;
+  text-align: center;
+}
+
+/* 診療待ち　のスタイル */
+.title-2 {
+  font-size: 150px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  color:#96CBFC;
+  text-align: center;
+}
+
+/* 番号のスタイル */
+.shop-text {
+  font-size: 100px;
+  margin-top: 30px; 
+  margin-bottom: 50px;             /* ← ここ重要！ */
+  color: #A2D2FF;
+  text-align: center;
+}
